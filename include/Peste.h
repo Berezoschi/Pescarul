@@ -10,8 +10,6 @@ class Peste
         Peste(std::string, double, short);
         virtual ~Peste();
 
-    protected:
-
     private:
         std::string _soi;
         double _greutate;

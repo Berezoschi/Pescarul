@@ -1,20 +1,27 @@
 # depslib dependency file v1.0
-1586098183 source:c:\users\m0108410\robert\pescarul\src\peste.cpp
+1586119012 source:c:\users\m0108410\robert\pescarul\src\peste.cpp
 	"Peste.h"
 
-1586098227 c:\users\m0108410\robert\pescarul\include\peste.h
+1586119012 c:\users\m0108410\robert\pescarul\include\peste.h
 	<iostream>
 
-1586098182 source:c:\users\m0108410\robert\pescarul\main.cpp
+1586121282 source:c:\users\m0108410\robert\pescarul\main.cpp
 	<iostream>
 	<vector>
 	"Pescar.h"
 
-1586101239 c:\users\m0108410\robert\pescarul\include\pescar.h
+1586121609 c:\users\m0108410\robert\pescarul\include\pescar.h
 	"Peste.h"
+	"Momeala.h"
 	<iostream>
 	<vector>
 
-1586101454 source:c:\users\m0108410\robert\pescarul\src\pescar.cpp
+1586121582 source:c:\users\m0108410\robert\pescarul\src\pescar.cpp
 	"Pescar.h"
+
+1586119012 source:c:\users\m0108410\robert\pescarul\src\momeala.cpp
+	"Momeala.h"
+
+1586119012 c:\users\m0108410\robert\pescarul\include\momeala.h
+	<iostream>
 

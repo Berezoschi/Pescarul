@@ -1,9 +1,13 @@
 #include "Pescar.h"
 
-void Pescar::IncarcaCarlig(Momeala momeala, double cantitate)
+Pescar::Pescar(Momeala m1, Momeala m2, Momeala m3) : _m1{m1}, _m2{m2}, _m3{m3}
 {
-    _momeala = momeala;
-    _cantitate = cantitate;
+
+}
+
+void Pescar::IncarcaCarlig(Momeala momy)
+{
+
 }
 
 void Pescar::PrindePeste(Peste peste)
@@ -11,14 +15,9 @@ void Pescar::PrindePeste(Peste peste)
     pestiPrinsi.push_back(peste);
 }
 
-Pescar::Pescar(Momeala momeala, double cantitate) : _momeala{momeala}, _cantitate{cantitate}
-{
-
-}
-
 Pescar::Pescar()
 {
-    //ctor
+
 }
 
 Pescar::~Pescar()

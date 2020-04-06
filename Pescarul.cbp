@@ -34,9 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Momeala.h" />
 		<Unit filename="include/Pescar.h" />
 		<Unit filename="include/Peste.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Momeala.cpp" />
 		<Unit filename="src/Pescar.cpp" />
 		<Unit filename="src/Peste.cpp" />
 		<Extensions>

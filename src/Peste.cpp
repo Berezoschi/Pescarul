@@ -7,7 +7,7 @@ Peste::Peste(std::string soi, double greutate, short lungime) : _soi{soi}, _greu
 
 Peste::Peste()
 {
-    //ctor
+
 }
 
 Peste::~Peste()
