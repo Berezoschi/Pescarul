@@ -1,11 +1,11 @@
 #include "Pescar.h"
 
-Pescar::Pescar(Momeala m1, Momeala m2, Momeala m3) : _m1{m1}, _m2{m2}, _m3{m3}
+Pescar::Pescar(double mamaliga, double rame, double viermisori) : _mamaliga{mamaliga}, _rame{rame}, _viermisori{viermisori}
 {
 
 }
 
-void Pescar::IncarcaCarlig(Momeala momy)
+void Pescar::IncarcaCarlig(std::string momeala, double cantitate)
 {
 
 }
