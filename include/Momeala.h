@@ -10,7 +10,7 @@ class Momeala
         Momeala(std::string, double);
         virtual ~Momeala();
 
-    protected:
+    private:
         std::string _momeala;
         double _cantitate;
 };

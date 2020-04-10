@@ -5,7 +5,7 @@
 #include <iostream>
 #include <vector>
 
-class Pescar : public Momeala, public Peste
+class Pescar
 {
     public:
         Pescar();

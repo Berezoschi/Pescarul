@@ -1,7 +1,7 @@
 #include "Pescar.h"
 #include <iostream>
 
-Pescar::Pescar(double mamaliga, double rame, double viermisori) : _mamaliga{"mamaliga", mamaliga}, _rame{"rame", rame}, _viermisori{"viermisori", viermisori}
+Pescar::Pescar(double cantM, double cantR, double cantV) : _mamaliga{"mamaliga", cantM}, _rame{"rame", cantR}, _viermisori{"viermisori", cantV}
 {
 
 }
@@ -18,26 +18,51 @@ bool Pescar::Esecul()
     return incarcare;
 }
 
-bool Pescar::IncarcaCarlig(std::string m, double c)
+bool Pescar::IncarcaCarlig(std::string mom, double cant)
 {
-    if(_cantitate >= c)
+    std::string x;
+    double y;
+
+    if(mom == "mamaliga")
     {
-        _cantitate = _cantitate - c;
-        return Succesul();
+        _mamaliga = {x, y};
+        if(cant <= y)
+            {
+                y = y - cant;
+                return Succesul();
+            }
+                return Esecul();
     }
-    else
+
+    if(mom == "rame")
+    {
+        _rame = {x, y};
+        if(cant <= y)
+        {
+            y = y - cant;
+            return Succesul();
+        }
         return Esecul();
+    }
+
+    if(mom == "viermisori")
+    {
+        _viermisori = {x, y};
+        if(cant <= y)
+        {
+            y = y - cant;
+            return Succesul();
+        }
+        return Esecul();
+    }
 }
 
-void Pescar::PrindePeste(std::string soi, double greutate, short lungime)
+void Pescar::PrindePeste(std::string soiP, double greutateP, short lungimeP)
 {
-    _soi = soi;
-    _greutate = greutate;
-    _lungime = lungime;
-    pestiPrinsi.push_back(Peste(soi, greutate, lungime));
-    for(int i=0; i<pestiPrinsi.size(); ++i)
+    pestiPrinsi.push_back(Peste{soiP, greutateP, lungimeP});
+    for(unsigned int i=0; i<pestiPrinsi.size(); ++i)
     {
-        std::cout << soi << " , greutate " << greutate << " kg, lungime " << lungime << " cm\n";
+        std::cout << soiP << " , greutate " << greutateP << " kg, lungime " << lungimeP << " cm\n";
     }
 }
 
