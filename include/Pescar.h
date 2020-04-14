@@ -5,15 +5,13 @@
 #include <iostream>
 #include <vector>
 
-class Pescar
+class Pescar : public Momeala, public Peste
 {
     public:
         Pescar();
         Pescar(double, double, double);
         bool IncarcaCarlig(std::string, double);
         void PrindePeste(std::string, double, short);
-        bool Succesul();
-        bool Esecul();
         virtual ~Pescar();
         std::vector<Peste>pestiPrinsi;
 

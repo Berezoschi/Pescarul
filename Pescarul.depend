@@ -2,26 +2,26 @@
 1586506260 source:c:\users\m0108410\robert\pescarul\src\peste.cpp
 	"Peste.h"
 
-1586506260 c:\users\m0108410\robert\pescarul\include\peste.h
+1586873269 c:\users\m0108410\robert\pescarul\include\peste.h
 	<iostream>
 
-1586365489 source:c:\users\m0108410\robert\pescarul\main.cpp
+1586859348 source:c:\users\m0108410\robert\pescarul\main.cpp
 	<iostream>
 	"Pescar.h"
 
-1586507512 c:\users\m0108410\robert\pescarul\include\pescar.h
+1586873269 c:\users\m0108410\robert\pescarul\include\pescar.h
 	"Peste.h"
 	"Momeala.h"
 	<iostream>
 	<vector>
 
-1586365719 source:c:\users\m0108410\robert\pescarul\src\pescar.cpp
+1586873269 source:c:\users\m0108410\robert\pescarul\src\pescar.cpp
 	"Pescar.h"
 	<iostream>
 
 1586271924 source:c:\users\m0108410\robert\pescarul\src\momeala.cpp
 	"Momeala.h"
 
-1586506260 c:\users\m0108410\robert\pescarul\include\momeala.h
+1586872153 c:\users\m0108410\robert\pescarul\include\momeala.h
 	<iostream>
 
