@@ -10,7 +10,7 @@ class Pescar
     public:
         Pescar(double, double, double);
         bool ScadeCantitate(Momeala*, double);
-        bool IncarcaCarlig(std::string, double);
+        bool IncarcaCarlig(Momeli, double);
         void PrindePeste(std::string, double, short);
         virtual ~Pescar();
         std::vector<Peste>pestiPrinsi;

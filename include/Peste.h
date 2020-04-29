@@ -6,11 +6,10 @@
 class Peste
 {
     public:
-        Peste();
-        Peste(std::string, double, short);
         std::string soi;
         double greutate;
         short lungime;
+        Peste(std::string, double, short);
         virtual ~Peste();
 };
 

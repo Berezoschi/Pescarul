@@ -2,13 +2,17 @@
 #define MOMEALA_H
 #include <iostream>
 
+enum Momeli
+{
+    mamaliga, rame, viermisori
+};
 
 class Momeala
 {
     public:
-        Momeala(std::string, double);
-        std::string momeala;
+        Momeli momeala;
         double cantitate;
+        Momeala(Momeli, double);
         virtual ~Momeala();
 };
 

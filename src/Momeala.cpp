@@ -1,6 +1,6 @@
 #include "Momeala.h"
 
-Momeala::Momeala(std::string momeala, double cantitate)
+Momeala::Momeala(Momeli momeala, double cantitate)
 {
 
 }

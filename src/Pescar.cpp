@@ -1,7 +1,7 @@
 #include "Pescar.h"
 #include <iostream>
 
-Pescar::Pescar(double cantM, double cantR, double cantV) : _mamaliga{"mamaliga", cantM}, _rame{"rame", cantR}, _viermisori{"viermisori", cantV}
+Pescar::Pescar(double cantM, double cantR, double cantV) : _mamaliga{mamaliga, cantM}, _rame{rame, cantR}, _viermisori{viermisori, cantV}
 {
 
 }
@@ -16,7 +16,7 @@ bool Pescar::ScadeCantitate(Momeala* mom, double cant)
     return false;
 }
 
-bool Pescar::IncarcaCarlig(std::string tipMom, double cantM)
+bool Pescar::IncarcaCarlig(Momeli tipMom, double cantM)
 {
     if(_mamaliga.momeala == tipMom)
     {
