@@ -6,13 +6,10 @@
 class Momeala
 {
     public:
-        Momeala();
         Momeala(std::string, double);
+        std::string momeala;
+        double cantitate;
         virtual ~Momeala();
-
-    protected:
-        std::string _momeala;
-        double _cantitate;
 };
 
 #endif // MOMEALA_H

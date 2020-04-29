@@ -8,12 +8,10 @@ class Peste
     public:
         Peste();
         Peste(std::string, double, short);
+        std::string soi;
+        double greutate;
+        short lungime;
         virtual ~Peste();
-
-    protected:
-        std::string _soi;
-        double _greutate;
-        short _lungime;
 };
 
 #endif // PESTE_H
