@@ -6,11 +6,11 @@ Pescar::Pescar(double cantM, double cantR, double cantV) : _mamaliga{mamaliga, c
 
 }
 
-bool Pescar::ScadeCantitate(Momeala* mom, double cant)
+bool Pescar::ScadeCantitate(Momeala mom, double cant)
 {
-    if(mom -> cantitate > cant)
+    if(mom.cantitate > cant)
     {
-        mom -> cantitate -= cant;
+        mom.cantitate -= cant;
         return true;
     }
     return false;
@@ -20,16 +20,17 @@ bool Pescar::IncarcaCarlig(Momeli tipMom, double cantM)
 {
     if(_mamaliga.momeala == tipMom)
     {
-        return ScadeCantitate(&_mamaliga, cantM);
+        return ScadeCantitate(_mamaliga, cantM);
     }
 
     if(_rame.momeala == tipMom)
     {
-        return ScadeCantitate(&_rame, cantM);
+        return ScadeCantitate(_rame, cantM);
     }
+
     if(_viermisori.momeala == tipMom)
     {
-        return ScadeCantitate(&_viermisori, cantM);
+        return ScadeCantitate(_viermisori, cantM);
     }
 }
 

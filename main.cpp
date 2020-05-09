@@ -7,6 +7,8 @@ int main()
 {
     Pescar pescar{0.5, 0.5, 0.25};
     pescar.IncarcaCarlig(mamaliga, 0.2);
+    cout << "Pesti prinsi:" << endl;
+    cout << endl;
     if(pescar.IncarcaCarlig(mamaliga, 0.2) == true)
         pescar.PrindePeste("crap", 1.5, 35);
     pescar.IncarcaCarlig(viermisori, 0.1);

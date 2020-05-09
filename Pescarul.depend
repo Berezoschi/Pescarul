@@ -5,17 +5,17 @@
 1588165171 c:\users\m0108410\robert\pescarul\include\peste.h
 	<iostream>
 
-1588164352 source:c:\users\m0108410\robert\pescarul\main.cpp
+1588167614 source:c:\users\m0108410\robert\pescarul\main.cpp
 	<iostream>
 	"Pescar.h"
 
-1588164255 c:\users\m0108410\robert\pescarul\include\pescar.h
+1588169140 c:\users\m0108410\robert\pescarul\include\pescar.h
 	"Peste.h"
 	"Momeala.h"
 	<iostream>
 	<vector>
 
-1588164229 source:c:\users\m0108410\robert\pescarul\src\pescar.cpp
+1588169217 source:c:\users\m0108410\robert\pescarul\src\pescar.cpp
 	"Pescar.h"
 	<iostream>
 

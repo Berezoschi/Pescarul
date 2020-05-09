@@ -9,7 +9,7 @@ class Pescar
 {
     public:
         Pescar(double, double, double);
-        bool ScadeCantitate(Momeala*, double);
+        bool ScadeCantitate(Momeala, double);
         bool IncarcaCarlig(Momeli, double);
         void PrindePeste(std::string, double, short);
         virtual ~Pescar();
